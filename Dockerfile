@@ -7,3 +7,4 @@ COPY . /usr/share/nginx/html
 
 # Expose port 80 for web traffic
 EXPOSE 80
+Add Dockerfile for Jenkins build
