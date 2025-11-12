@@ -1,10 +1,5 @@
 
-# Use a lightweight Nginx base image
+# Dockerfile for a simple static site
 FROM nginx:alpine
-
-# Copy all files from your repository to Nginx's default HTML directory
 COPY . /usr/share/nginx/html
-
-# Expose port 80 for web traffic
 EXPOSE 80
-Add Dockerfile for Jenkins build
